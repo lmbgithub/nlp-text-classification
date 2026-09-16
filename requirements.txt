@@ -1,0 +1,4 @@
+# Needed only to train the models. The corpus, split, truncation and metrics
+# code — and the whole test suite — is standard library only.
+tensorflow>=2.16
+numpy>=1.24
