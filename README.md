@@ -1,11 +1,16 @@
-# nlp-text-classification — a transformer against a dense baseline
+# nlp-text-classification
 
-Text classification on 20 Newsgroups: how much does a transformer actually buy
-over a well-tuned dense network on 20k documents — and what does it cost?
+Text classification on the 20 Newsgroups corpus, comparing a transformer encoder
+against a well-tuned dense network.
 
-**Core package: standard library only.** TensorFlow is needed to train; nothing
-else in the package imports it, so the suite runs in a tenth of a second with no
-deep-learning framework installed. **85 tests.**
+The question the project answers is a practical one: on roughly 20k documents,
+how much accuracy does the transformer actually buy, and what does it cost in
+parameters and training time? Both models are trained under an identical
+configuration so the comparison is about architecture and nothing else.
+
+**Core package: standard library only.** TensorFlow is needed to train, but
+nothing in the package imports it, so the suite runs in a tenth of a second with
+no deep-learning framework installed. **85 tests.**
 
 ## Skills demonstrated
 
